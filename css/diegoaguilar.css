@@ -1,0 +1,159 @@
+header{
+	background-image: url(../img/header2.jpg);
+	background-position: 70% 70%;
+	background-size: cover;
+	color: white;
+}
+.vh{
+	min-height: 100vh;
+}
+.vertical-center{
+	display: flex;
+    align-items: center;
+}
+header p{
+	text-align: justify;
+}
+
+.img{
+	width: 300px;
+}
+.title{
+	font-size: 25px;
+	color: #E2E2E2;
+}
+.myButton {
+	-moz-border-radius:6px;
+	-webkit-border-radius:6px;
+	border-radius:6px;
+	border:2px solid #18ab29;
+	color: #18ab29 !important;
+	cursor:pointer;
+	padding:3px 24px !important;
+	margin: 10px;
+}
+.myButton:hover {
+	background-color: #18ab29 !important;
+	color: #E2E2E2 !important;
+}
+.myButton:active {
+	position:relative;
+	top:1px;
+}
+.azul{
+	background-color: #134771;
+	color: #E2E2E2;
+}
+.coffee{
+	background-image: url(http://cdn.desktopwallpapers4.me/wallpapers/photography/2560x1600/3/21759-coffee-and-newspaper-2560x1600-photography-wallpaper.jpg);
+	background-position: 70% 70%;
+	background-size: cover;
+	background-attachment: fixed;
+}
+section{
+	padding: 80px 0px;
+}
+#sec1 h1{
+	    font-family: "Raleway", "Helvetica Neue", Helvetica, Arial, sans-serif;
+	    font-size: 52px;
+	    font-weight: 900;
+}
+#sec2 img{
+	width: 130px;
+}
+#sec2 li{
+	width: 200px;
+	margin: 20px 10px;
+	text-align: center;
+}
+.newsletter{
+	display: flex;
+}
+.new{
+	width: 50%;
+}
+#sec5{
+	padding: 60px 0px 0px 0px !important;
+}
+.triangulo_izq{
+    width: 0;
+    height: 0;
+    border-top: 12px solid transparent;
+    border-right: 14px solid #e8e8e8;
+    border-bottom: 12px solid transparent;
+}
+.recomendacion{
+	width: 330px;
+	height: 180px;
+	background-color: #f5f5f5;
+	border-left: 4px solid #e8e8e8;
+	border-right: 4px solid #e8e8e8;
+}
+.flex{
+	display: flex;
+	align-items: center;
+}
+.relacion{
+	max-width: 550px;
+}
+.relaciones-exteriores{
+	margin-top: 20px;
+	background-color: rgb(241, 239, 239); 
+	padding: 40px;"
+}
+.relaciones-exteriores img{
+	width: 200px;
+	margin: 0px	30px;
+	-webkit-filter: grayscale(1);
+  	filter: grayscale(1);
+}
+.relaciones-exteriores img:hover{
+	-webkit-filter: grayscale(0);
+  	filter: grayscale(0);
+}
+footer{
+	padding: 30px;
+}
+/* Responsive Design */
+
+@media screen and (max-width: 767px) {
+
+  .vertical-center
+  	{	
+	    display: flex;
+	    justify-content: center;
+	    align-content: center;
+	    flex-direction: column;
+	}
+	  .triangulo_izq{
+    width: 0;
+    height: 0;
+    border-bottom: 14px solid #e8e8e8;
+    border-right: 12px solid transparent;
+    border-left: 12px solid transparent;
+	}
+  .flex{
+  		flex-direction: column;
+	}
+	.relaciones-exteriores img {
+    width: 200px;
+    margin: 15px 0px;
+}
+	.list-rela{
+	display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+	
+	.recomendacion{
+		width: 100%;
+	}
+
+  .photo{
+  		margin-top: 70px;
+  }
+  .navbar-nav {
+    	margin: 0px -15px;
+  }
+
+}
