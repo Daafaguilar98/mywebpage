@@ -45,7 +45,7 @@ header p{
 	color: #E2E2E2;
 }
 .coffee{
-	background-image: url(http://cdn.desktopwallpapers4.me/wallpapers/photography/2560x1600/3/21759-coffee-and-newspaper-2560x1600-photography-wallpaper.jpg);
+	background-image: url(http://themes.startbootstrap.com/vitality-v1.3.6/assets/img/creative/bg-aside.jpg);
 	background-position: 70% 70%;
 	background-size: cover;
 	background-attachment: fixed;
@@ -55,19 +55,26 @@ section{
 }
 #sec1 h1{
 	    font-family: "Raleway", "Helvetica Neue", Helvetica, Arial, sans-serif;
-	    font-size: 52px;
+	    font-size: 49px;
 	    font-weight: 900;
+	    text-align: center;
 }
-#sec2 img{
-	width: 130px;
-}
-#sec2 li{
-	width: 200px;
-	margin: 20px 10px;
-	text-align: center;
-}
-.newsletter{
+#sec2{
 	display: flex;
+	justify-content: space-around;
+	align-items: center;
+}
+.proyecto{
+	width: 500px;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+}
+.proyecto img{
+	width: 100%;
+	box-shadow: 0px 0px 10px #0c2b44;
+	margin: 10px 0;
 }
 .new{
 	width: 50%;
@@ -88,6 +95,8 @@ section{
 	background-color: #f5f5f5;
 	border-left: 4px solid #e8e8e8;
 	border-right: 4px solid #e8e8e8;
+	text-align: center;
+	padding-top: 35px;
 }
 .flex{
 	display: flex;
