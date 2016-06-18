@@ -57,20 +57,24 @@ section{
 	    font-family: "Raleway", "Helvetica Neue", Helvetica, Arial, sans-serif;
 	    font-size: 49px;
 	    font-weight: 900;
+	    text-align: center;
 }
-#sec2 img{
-	width: 130px;
-}
-#sec2 li{
-	width: 200px;
-	margin: 20px 10px;
-	text-align: center;
-}
-#sec4{
-	padding: 0px;
-}
-.newsletter{
+#sec2{
 	display: flex;
+	justify-content: space-around;
+	align-items: center;
+}
+.proyecto{
+	width: 500px;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+}
+.proyecto img{
+	width: 100%;
+	box-shadow: 0px 0px 10px #0c2b44;
+	margin: 10px 0;
 }
 .new{
 	width: 50%;
@@ -91,6 +95,8 @@ section{
 	background-color: #f5f5f5;
 	border-left: 4px solid #e8e8e8;
 	border-right: 4px solid #e8e8e8;
+	text-align: center;
+	padding-top: 35px;
 }
 .flex{
 	display: flex;
