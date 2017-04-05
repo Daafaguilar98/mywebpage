@@ -59,8 +59,9 @@ section{
 	    font-weight: 900;
 	    text-align: center;
 }
-#sec2{
+#sec2, #sec3{
 	display: flex;
+	flex-wrap: wrap;
 	justify-content: space-around;
 	align-items: center;
 }
@@ -72,6 +73,19 @@ section{
 	align-items: center;
 }
 .proyecto img{
+	width: 100%;
+	box-shadow: 0px 0px 10px #0c2b44;
+	margin: 10px 0;
+}
+.diploma{
+	width: 350px;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	color: #FFF;
+}
+.diploma img{
 	width: 100%;
 	box-shadow: 0px 0px 10px #0c2b44;
 	margin: 10px 0;
